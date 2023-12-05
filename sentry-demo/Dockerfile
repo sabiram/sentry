@@ -1,5 +1,5 @@
-ARG SENTRY_IMAGE
-FROM ${SENTRY_IMAGE}
+ARG sentry:latest
+FROM sentry:latest
 
 COPY . /usr/src/sentry
 
